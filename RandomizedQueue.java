@@ -81,7 +81,7 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
         n++;
     }
 
-    public Node<Item> randomNode() {
+    private Node<Item> randomNode() {
         int x = StdRandom.uniform(n);
         Node<Item> node = first;
 
